@@ -4,6 +4,15 @@
     box-sizing: border-box; 
     margin: 0.2em;
 }
+h1{
+ text-align: center;
+ padding: 0.5rem;
+ text-decoration: underline;
+color: white;
+font-family: Lucida Handwriting;
+gap: 15rem;
+
+}
 body
 {
     height: 100vh;
