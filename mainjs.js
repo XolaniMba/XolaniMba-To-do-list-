@@ -41,19 +41,41 @@ const displayCount =(taskCount) => {
         }
     
         // Fixed the HTML template and attributes
+    //     const task = `
+    //         <div class="task">
+    //             <input type="checkbox" class="task-check">
+    //             <span class="taskName">${taskName}</span>
+    //             <button class="edit">
+    //             <i class="fa-solid fa-pen-to-square"></i>
+    //             </button>
+    //             <button class="delete">
+    //             <i class="fa-solid fa-trash"></i>
+    //             </button>
+
+    //         </div>`;
+    //         tasksContainer.insertAdjacentElement("beforeend", task);
+    // };
+
+    // addBtn.addEventListener("click", addTask);
+    const addTask = () => {
         const task = `
             <div class="task">
                 <input type="checkbox" class="task-check">
                 <span class="taskName">${taskName}</span>
                 <button class="edit">
-
+                    <i class="fa-solid fa-pen-to-square"></i>
                 </button>
                 <button class="delete">
-                
+                    <i class="fa-solid fa-trash"></i>
                 </button>
-
-            </div>
-        `;
+            </div>`;
+    
+        const tempDiv = document.createElement('div'); // Temporary container
+        tempDiv.innerHTML = task; // Set the HTML string to innerHTML
+        const taskElement = tempDiv.firstElementChild; // Get the actual element
+    
+        tasksContainer.insertAdjacentElement("beforeend", taskElement); // Insert the element
     };
     
-
+    // Ensure this function call is outside of any other functions or braces
+    addBtn.addEventListener("click", addTask);
