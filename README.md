@@ -18,4 +18,4 @@ Navigate to the project directory: " cd XolaniMba-Development"
 node server.js
 Open your browser and go to http://localhost:3000 (or the port you configured).
 **deploymant link**
-https://xolanimba.github.io/XolaniMba/
+https://xolanimba-to-do-list.onrender.com
