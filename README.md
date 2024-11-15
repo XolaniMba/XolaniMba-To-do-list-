@@ -1,4 +1,4 @@
-**To-Do List Application**
+ **To-Do List Application**
 **Features**
 **Add Tasks:** Easily add new tasks to your to-do list.
 **Edit Tasks:** Modify tasks directly in the app.
@@ -17,5 +17,5 @@ Navigate to the project directory: " cd XolaniMba-Development"
 **Start the Node.js server:**
 node server.js
 Open your browser and go to http://localhost:3000 (or the port you configured).
-**deployment Link**
+**deploymant link**
 https://xolanimba.github.io/XolaniMba/
