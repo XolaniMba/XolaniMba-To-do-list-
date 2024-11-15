@@ -29,7 +29,7 @@ const displayCount =(taskCount) => {
     //  </div> '
 
 
-    const addTask = () => {
+    const addTasks = () => {
         const taskName = newTaskInput.value.trim(); // Fix here: use .value instead of .ariaValueMax
         error.style.display = "none";
     
@@ -39,6 +39,7 @@ const displayCount =(taskCount) => {
             }, 200);
             return;
         }
+    }
     
         // Fixed the HTML template and attributes
     //     const task = `
